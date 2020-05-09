@@ -73,7 +73,7 @@ header .subheader .mobile_appear {
     opacity: 0.5;
     height: 13px;
     color: #ffffff;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 400;
     margin-top: 6px;
 }
@@ -589,12 +589,6 @@ i {
 }
 
 @media (max-width:1200px) {
-    .box_img {
-        width: 300px;
-    }
-}
-
-@media (max-width:1200px) {
     .social {
         margin: 0px 3px;
         width: 32px;
@@ -654,6 +648,24 @@ i {
     }
 }
 
+@media (max-width:1200px) {
+    .subheader .subheader_official {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1200px){
+    .box_img {
+        width: 300px;
+        }
+    }
+
+@media (max-width: 1200px){
+    .opt_text {
+        font-size: 15px;
+        }
+    } 
+
 @media (max-width:992px) {
     header .menu_link {
         font-size: 10px;
@@ -687,6 +699,12 @@ i {
     }
 }
 
+/* @media (max-width:768px) {
+    .btn1:hover, .promo .btn2:hover {
+        background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    }
+} */
+
 @media (max-width:922px) {
     .promo .promo_header {
         font-size: 40px;
@@ -697,12 +715,6 @@ i {
     .promo .subheader {
         font-size: 32px;
     }
-
-    /* @media (max-width:922px) {
-        .promo {
-            width: 100%;
-        }
-        } */
 
 @media (max-width:922px) {
     .column .circle {
@@ -718,40 +730,17 @@ i {
     }
 
 @media (max-width:922px) {
-        .opt_text {
-        font-size: 21px;
-            }
-        }
-    
-@media (max-width: 922px){
-    .box_img {
-        width: 228px;
-        }
-    }
-
-@media (max-width: 922px){
     .opt_text {
-        margin-top: 44px;
+        padding-left: 30px;
+        width: 50vh;
     }
-}
+    }
 
 @media (max-width: 922px){
     .options .plus {
-        margin-top: 156px;
+        margin-top: 160px;
     }
 }
-
-/* @media (max-width: 922px){
-    .options, .choice, .column, .promo, .require, .world, footer, header .subheader {
-        width: 922px;
-    }
-    }
-
-@media (max-width: 768px) {
-    .options, .choice, .column, .promo, .require, .world, footer, header .subheader {
-        width: 1020px;
-    }
-    } */
 
 @media (max-width: 768px) {
     header .menu {
@@ -843,33 +832,9 @@ i {
     }
     }
 
-@media (max-width: 768px) {
-    .box_img {
-        width: 175px;
-    }
-    }
-    
-@media (max-width: 768px) {
-    .options .plus {
-            margin-top: 115px;
-    }
-    }
-    
-@media (max-width: 768px) {
-    .opt_text {
-        font-size: 15px;
-    }
-    }
-
 @media (max-width: 576px) {
     .mobile_hidden {
     display: none;
-    }
-    }
-
-@media (max-width: 576px) {
-    .box_img {
-    width: 270px;
     }
     }
 
