@@ -650,7 +650,7 @@ i {
 
 @media (max-width:1200px) {
     .subheader .subheader_official {
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 
@@ -698,12 +698,6 @@ i {
         font-size: 12px;
     }
 }
-
-/* @media (max-width:768px) {
-    .btn1:hover, .promo .btn2:hover {
-        background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
-    }
-} */
 
 @media (max-width:922px) {
     .promo .promo_header {
